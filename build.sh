@@ -10,6 +10,6 @@ else
  mv eccodes-2.10.0-Source eccodes-2.10.0-src
 fi;
 
-docker build -t krasaee/python-pygrib-amd64:latest .
-docker push krasaee/python-pygrib-amd64:latest
+docker build -t krasaee/python-pygrib-amd64:1.0.0 .
+docker push krasaee/python-pygrib-amd64:1.0.0
 
